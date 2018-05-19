@@ -22,7 +22,7 @@ It is based on following libraries and frameworks-
 7. **modules**: Independent modules used throughout the app are defined here
 8. **public**: All the static resources (js, css, images)
 9. **routes**: All the routes
-10. **services**: These act as middlemen between routes and database. All the database operations is made here.
+10. **services**: These act as middlemen between routes and database. All the database operations are made here.
 11. **views**: Contains HTML and .ejs files used for rendering to frontend
 
 ### How to install
