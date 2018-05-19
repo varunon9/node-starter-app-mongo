@@ -1,0 +1,102 @@
+/*===================================================================================
+@author Varun Kumar <varunon9@gmail.com>
+https://github.com/varunon9
+=====================================================================================*/
+
+.primary {
+    background: #6084c4 !important;
+    color: #fff !important;
+}
+
+.primary-color {
+    color: #1e70bf;
+}
+
+.negative {
+    color: #dc3545 !important;
+}
+
+.positive {
+    color: #007bff !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.ui.ordered.steps .step.completed:before, .ui.steps .step.completed>.icon:before {
+    color: #016936;
+}
+
+.margin-bottom {
+    margin-bottom: 1em !important;
+}
+
+.fieldLabel {
+    font-weight: bold;
+}
+
+.fieldLabel::after {
+    content: ': ';
+}
+
+.left.aligned {
+    text-align: left;
+}
+
+#menu {
+    padding: 0.5em;
+}
+
+#menuLogo {
+    width: 3%;
+}
+
+#menuLogo img {
+    width: 100%;
+}
+
+.ui.menu .dropdown.item:hover, .ui.menu .item.active {
+    background: none;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+a {
+    outline: none;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+}
+
+#login .ui.secondary.segment {
+    background: none;
+}
+
+#signup .ui.secondary.segment {
+    background: none;
+}
+
+#dashboardTabs .tab {
+    padding: 1.5em;
+}
+
+#dashboardTabs .tab .ui.stackable.grid {
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#dashboardTabs .tab .ui.stackable.grid .form .field p {
+    opacity: .7;
+}

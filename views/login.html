@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <% include ./partials/head %>
+    </head>
+    <body>
+        <div class="ui menu" id="menu">
+            <div id="menuLogo">
+                <a href="https://github.com/varunon9">
+                    <img src="images/github-logo.svg" alt="My Github Profile" />
+                </a>
+            </div>
+            <div class="item">
+                <h4>
+                    Node Starter App with Mongo
+                </h4>
+            </div>
+            <div class="right menu">
+                <div class="item">
+                    <a href="/">Home</a>
+                </div>
+                <div class="item">
+                    <a href="signup">Signup</a>
+                </div>
+                <div class="item">
+                    <a href="#">Help</a>
+                </div>
+            </div>
+        </div>
+        <div class="ui center aligned stackable grid" id="login">
+            <div class="ui large form six wide column">
+                <div class="ui center aligned secondary segment">
+                    <h3 class="ui header">
+                        Enter your login details
+                    </h3>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="envelope icon"></i>
+                            <input type="email" id="userEmail" placeholder="Registered Email" />
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="privacy icon"></i>
+                            <input type="password" id="userPassword" placeholder="Your password" />
+                        </div>
+                    </div>
+                    <div class="field left aligned">
+                        <div class="ui checkbox">
+                            <input type="checkbox" id="keepMeLoggedInCheckbox" tabindex="0" class="hidden">
+                            <label>Keep me logged in</label>
+                        </div>
+                    </div>
+                    <button class="ui fluid large primary submit button" id="loginButton">
+                        Login
+                    </button>
+                    <h4>
+                        Don't have an account? <a href="signup">Signup</a>
+                    </h4>
+                </div>
+                <div class="ui error" id="errorMessage"></div>
+            </div> 
+        </div>
+        <script src="js/login.js"></script>
+    </body>
+</html>

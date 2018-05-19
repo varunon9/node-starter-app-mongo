@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <% include ./partials/head %>
+    </head>
+    <body>
+        <div class="ui menu" id="menu">
+            <div id="menuLogo">
+                <a href="https://github.com/varunon9">
+                    <img src="images/github-logo.svg" alt="My Github Profile" />
+                </a>
+            </div>
+            <div class="item">
+                <h4>
+                    hi <%= email %>
+                </h4>
+            </div>
+            <div class="right menu">
+                <div class="item">
+                    <a href="/">Home</a>
+                </div>
+                <div class="item">
+                    <a href="logout">Logout</a>
+                </div>
+                <div class="item">
+                    <a href="#">Help</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="dashboard">
+            <div class="ui container" id="myProfile">
+                <h4 class="ui header">My Profile</h4>
+                <div class="ui form">
+                    <div class="fields">
+                        <div class="four wide field">
+                            <label>Email</label>
+                            <input type="email" name="email" disabled="true" />
+                        </div>
+                        <div class="four wide field">
+                            <label>Name</label>
+                            <input type="text" name="name" />
+                        </div>
+                        <div class="four wide field">
+                            <label>Mobile</label>
+                            <input name="mobile" type="number" />
+                        </div>
+                        <div class="four wide field">
+                                <label>DOB</label>
+                                <input name="dob" type="date" />
+                            </div>
+                    </div>
+                    <div class="inline fields">
+                        <label for="gender">Gender:</label>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="gender" checked="" value="male" class="hidden">
+                                <label>Male</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="gender" value="female" class="hidden">
+                                <label>Female</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="fluid ui primary button" id="updateProfileButton">Update Profile</button>
+            </div>
+        </div>
+
+        <script src="js/dashboard.js"></script>
+    </body>
+</html>

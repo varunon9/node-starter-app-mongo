@@ -1,0 +1,12 @@
+{
+    "development": {
+        "database": "nodeStarterAppMongo",
+        "host": "localhost",
+        "superSecret": "n0de_starter_app_mongo_SS-SECRET"
+    },
+    "production": {
+        "database": "nodeStarterAppMongo",
+        "host": "localhost",
+        "superSecret": "n0de_starter_app_mongo_SS-SECRET"
+    }
+}
