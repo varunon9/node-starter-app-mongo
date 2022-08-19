@@ -40,7 +40,7 @@ It is based on following libraries and frameworks-
 
 ### Naming Conventions
 
-1. using camelCase for naming variables, functions in javascript
+1. using camelCase for naming variables, [functions in javascript](https://www.scaler.com/topics/javascript/javascript-functions/)
 2. using camelCase for naming MySql tables, CSS IDs
 3. using hyp-hens for naming CSS classes
 4. using under_scores for naming files and folders 
