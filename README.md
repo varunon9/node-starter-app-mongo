@@ -60,4 +60,8 @@ It is based on following libraries and frameworks-
 |![Home Screen](./screenshots/home.png) | ![Dashboard Screen](./screenshots/dashboard.png)|
 |![Login Screen](./screenshots/login.png) | ![Signup Screen](./screenshots/signup.png)|
 
+### Learning Resources
+
+1. [JavaScript Functions](https://www.scaler.com/topics/javascript/javascript-functions/)
+
 #### For query/issues create Github issue or contact: varunon9@gmail.com
